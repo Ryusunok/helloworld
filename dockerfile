@@ -13,4 +13,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 컨테이너가 시작될 때 실행할 명령을 설정합니다. 여기서는 Python 애플리케이션을 실행합니다.
-CMD ["python", "app.py"]
+CMD ["python", "hello.py"]
